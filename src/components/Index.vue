@@ -144,7 +144,7 @@
 
             <v-row  justify="center">
               <v-col cols="8">
-                <vuetify-audio flat :file="musicFile" color="black" :ended="audioFinish" />
+                <vuetify-audio flat :file="Artist1Audio" color="black" :ended="audioFinish" />
 
               </v-col>
             </v-row>
@@ -207,7 +207,7 @@
 
             <v-row  justify="center">
               <v-col cols="8">
-                <vuetify-audio flat :file="musicFile" color="black" :ended="audioFinish" />
+                <vuetify-audio flat :file="Artist2Audio" color="black" :ended="audioFinish" />
 
               </v-col>
             </v-row>
@@ -239,7 +239,7 @@
 
             <v-row  justify="center">
               <v-col cols="8">
-                <vuetify-audio flat :file="musicFile" color="black" :ended="audioFinish" />
+                <vuetify-audio flat :file="Artist3Audio" color="black" :ended="audioFinish" />
 
               </v-col>
             </v-row>
@@ -304,7 +304,7 @@
 
             <v-row  justify="center">
               <v-col cols="8">
-                <vuetify-audio flat :file="musicFile" color="black" :ended="audioFinish" />
+                <vuetify-audio flat :file="Artist4Audio" color="black" :ended="audioFinish" />
 
               </v-col>
             </v-row>
@@ -336,7 +336,7 @@
 
             <v-row  justify="center">
               <v-col cols="8">
-                <vuetify-audio flat :file="musicFile" color="black" :ended="audioFinish" />
+                <vuetify-audio flat :file="Artist5Audio" color="black" :ended="audioFinish" />
 
               </v-col>
             </v-row>
@@ -437,6 +437,12 @@
       Artist3: "Stormzy",
       Artist4: "Pop Smoke",
       Artist5: "CJ",
+
+      Artist1Audio: require("@/assets/Music/Beat1.mp3"),
+      Artist2Audio: require("@/assets/Music/Beat2.mp3"),
+      Artist3Audio: require("@/assets/Music/Beat3.mp3"),
+      Artist4Audio: require("@/assets/Music/Beat4.mp3"),
+      Artist5Audio: require("@/assets/Music/Beat5.wav"),
 
       Artist1Text: "Chief Keef this Chief Keef that",
       Artist2Text: "22Gz the king of NY",
