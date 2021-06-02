@@ -58,7 +58,7 @@
 
         <!-- Header Text -->
         <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-          <p>{{CultureText}} | {{CultureText}}</p>
+          <p>{{CultureText}}</p>
         </v-col>
       </v-row>
     </v-container>
@@ -78,7 +78,7 @@
           <p
             class="text-right"
           >
-          {{CultureText}} | {{CultureText}}</p>
+          {{CultureHistoryText}}</p>
         </v-col>
 
         <v-divider
@@ -114,7 +114,7 @@
 
     <!-- Parralax (Artists Divider) -->
     <v-parallax 
-      src="../assets/Pictures/PopSmoke.jpg"
+      :src=ArtistPicture
       height="300"
     > 
       <h1
@@ -131,6 +131,9 @@
           <v-card 
             flat color="#white" 
             style="border-radius: 0%;"
+            data-aos="fade-left"
+            data-aos-duration="500" 
+            data-aos-delay="50"
           >
             <h1
               class="text-right mr-4 sectionHeader"
@@ -155,8 +158,12 @@
         ></v-divider>
 
         <!-- Header Text -->
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-          <p>{{CultureText}} | {{CultureText}}</p>
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6" 
+          data-aos="fade-right"
+          data-aos-duration="500" 
+          data-aos-delay="50"
+        >
+          <p>{{Artist1Text}}</p>
         </v-col>
       </v-row>
     </v-container>
@@ -166,11 +173,15 @@
       <v-row cols="12">
 
         <!-- Header Text -->
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6" 
+          data-aos="fade-left"
+          data-aos-duration="500" 
+          data-aos-delay="50"  
+        >
           <p
             class="text-right"
           >
-          {{CultureText}} | {{CultureText}}</p>
+          {{Artist2Text}}</p>
         </v-col>
 
         <v-divider
@@ -184,10 +195,12 @@
           <v-card 
             flat color="#white" 
             style="border-radius: 0%;"
+            data-aos="fade-right"
+            data-aos-duration="500" 
+            data-aos-delay="50"
           >
             <h1
               class="text-left mr-4 sectionHeader"
-              
             >
               {{Artist2}}
             </h1>
@@ -213,6 +226,9 @@
           <v-card 
             flat color="#white" 
             style="border-radius: 0%;"
+            data-aos="fade-left"
+            data-aos-duration="500" 
+            data-aos-delay="50"
           >
             <h1
               class="text-right mr-4 sectionHeader"
@@ -237,8 +253,12 @@
         ></v-divider>
 
         <!-- Header Text -->
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-          <p>{{CultureText}} | {{CultureText}}</p>
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6" 
+          data-aos="fade-right"
+          data-aos-duration="500" 
+          data-aos-delay="50"
+        >
+          <p>{{Artist3Text}}</p>
         </v-col>
       </v-row>
     </v-container>
@@ -248,11 +268,15 @@
       <v-row cols="12">
 
         <!-- Header Text -->
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6"  
+          data-aos="fade-left"
+          data-aos-duration="500" 
+          data-aos-delay="50"
+        >
           <p
             class="text-right"
           >
-          {{CultureText}} | {{CultureText}}</p>
+          {{Artist4Text}}</p>
         </v-col>
 
         <v-divider
@@ -262,7 +286,11 @@
         ></v-divider>
         
         <!-- Logo -->
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6" 
+          data-aos="fade-right"
+          data-aos-duration="500" 
+          data-aos-delay="50"  
+        >
           <v-card 
             flat color="#white" 
             style="border-radius: 0%;"
@@ -290,11 +318,14 @@
     <v-container class="mt-6">
       <v-row cols="12">
 
-        <!-- Logo -->
+        <!-- Title & Stuff -->
         <v-col cols="12" sm="6" md="6" lg="6" xl="6">
           <v-card 
             flat color="#white" 
             style="border-radius: 0%;"
+            data-aos="fade-left"
+            data-aos-duration="500" 
+            data-aos-delay="50"
           >
             <h1
               class="text-right mr-4 sectionHeader"
@@ -319,15 +350,19 @@
         ></v-divider>
 
         <!-- Header Text -->
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-          <p>{{CultureText}} | {{CultureText}}</p>
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6" 
+          data-aos="fade-right"
+          data-aos-duration="500" 
+          data-aos-delay="50"  
+        >
+          <p>{{Artist5Text}}</p>
         </v-col>
       </v-row>
     </v-container>
 
     <!-- Parralax (Artists Divider) -->
     <v-parallax 
-      src="../assets/Pictures/PopSmoke.jpg"
+      :src=PersonalStatementPicture
       height="300"
     > 
       <h1
@@ -339,13 +374,14 @@
     <v-row 
       cols="12" 
       justify="center" 
-      class="text-center mt-6"
+      class="text-center mt-6 mb-6"
     >
       <v-col cols="12" md="8" lg="8" xl="8">
 
         <v-card flat>
+          <h1>{{PersonalStatementTitle}}</h1>
           <p>
-            {{CultureText}}
+            {{PersonalStatementText}}
           </p>
         </v-card>
 
@@ -361,7 +397,7 @@
 
           <v-spacer></v-spacer>
 
-          <p class="footerCopyright">{{ new Date().getFullYear() }} — <strong>Aidan Mackey</strong></p>
+          <p class="footerCopyright">© {{ new Date().getFullYear() }} — <strong>Aidan Mackey</strong></p>
         </v-card-title>
 
       </v-card>
@@ -387,18 +423,31 @@
       SubTitle: "For a Spotify playlist of all the songs I will be discussing click the link here: ",
 
       Culture: "UK Hip-Hop & Drill Culture",
-      CultureText: "A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
+      CultureText: "For this project, I will be discussing and analyzing the drill hip-hop music coming from the United Kingdom.",
 
       CultureHistory: "UK Drill Culture History",
-      CultureHistoryText: "",
+      CultureHistoryText: "History and stuff",
 
       musicFile: require("@/assets/Music/Beat.mp3"),
+
+      ArtistPicture: require("@/assets/Pictures/PopSmoke.jpg"),
 
       Artist1: "Chief Keef",
       Artist2: "22Gz",
       Artist3: "Stormzy",
       Artist4: "Pop Smoke",
       Artist5: "CJ",
+
+      Artist1Text: "Chief Keef this Chief Keef that",
+      Artist2Text: "22Gz the king of NY",
+      Artist3Text: "All my homies Vossi Bop",
+      Artist4Text: "You cannot say Pop and forget the Smoke",
+      Artist5Text: "Blue cheese, I swear I'm addicted to blue cheese.",
+
+      PersonalStatementPicture: require("@/assets/Pictures/temp.jpg"),
+
+      PersonalStatementTitle: "What I think",
+      PersonalStatementText: "I think that...",
     
     }),
   }
