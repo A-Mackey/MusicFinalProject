@@ -8,7 +8,7 @@
         <!-- Logo -->
         <v-col cols="12" sm="6" md="6" lg="6" xl="6">
           <v-img
-            :src="require('../assets/Pictures/Dancing.svg')"
+            :src="require('@/assets/Pictures/Dancing.svg')"
             class=""
             contain
             height="400"
@@ -392,7 +392,7 @@
       CultureHistory: "UK Drill Culture History",
       CultureHistoryText: "",
 
-      musicFile: require("../assets/Music/Beat.mp3"),
+      musicFile: require("@/assets/Music/Beat.mp3"),
 
       Artist1: "Chief Keef",
       Artist2: "22Gz",
@@ -417,13 +417,14 @@
     color: #34558b;
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 2em;
+    font-weight: 400;
   }
 
   .parallexTitle {
     color: white;
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 2em;
-    font-weight: 100;
+    font-weight: 300;
   }
 
   .footerText {
