@@ -364,10 +364,13 @@
     <v-parallax 
       :src=PersonalStatementPicture
       height="300"
+      class="text-center"
     > 
       <h1
-        class="text-center parallexTitle"
-      >Personal Statement</h1>  
+        class="parallexTitle"
+      >
+      Personal Statement
+      </h1>  
     </v-parallax>
 
     <!-- Personal Statement -->
@@ -450,7 +453,7 @@
       Artist4Text: "You cannot say Pop and forget the Smoke",
       Artist5Text: "Blue cheese, I swear I'm addicted to blue cheese.",
 
-      PersonalStatementPicture: require("@/assets/Pictures/temp.jpg"),
+      PersonalStatementPicture: require("@/assets/Pictures/SCU.jpg"),
 
       PersonalStatementTitle: "What I think",
       PersonalStatementText: "I think that...",
