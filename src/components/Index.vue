@@ -411,7 +411,7 @@
 
             <v-row  justify="center">
               <v-col cols="8">
-                <vuetify-audio flat :file="Artist4Audio" color="black" :ended="audioFinish" />
+                <vuetify-audio flat :file="Artist6Audio" color="black" :ended="audioFinish" />
 
               </v-col>
             </v-row>
