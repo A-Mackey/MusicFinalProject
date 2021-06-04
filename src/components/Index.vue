@@ -76,7 +76,7 @@
     </v-container>
     
     <!-- History -->
-    <v-container class="mt-6 mb-6">
+    <v-container class="mb-6">
       <v-row cols="12">
 
         <!-- Header Text -->
@@ -177,7 +177,7 @@
     </v-container>
 
     <!-- Artist 2 -->
-    <v-container class="mt-6 mb-6">
+    <v-container class="">
       <v-row cols="12">
 
         <!-- Header Text -->
@@ -226,7 +226,7 @@
     </v-container>
 
     <!-- Artist 3 -->
-    <v-container class="mt-6">
+    <v-container class="">
       <v-row cols="12">
 
         <!-- Logo -->
@@ -272,7 +272,7 @@
     </v-container>
 
     <!-- Artist 4 -->
-    <v-container class="mt-6 mb-6">
+    <v-container class="">
       <v-row cols="12">
 
         <!-- Header Text -->
@@ -323,7 +323,7 @@
     </v-container>
 
     <!-- Artist 5 -->
-    <v-container class="mt-6 mb-6">
+    <v-container class="">
       <v-row cols="12">
 
         <!-- Title & Stuff -->
@@ -371,7 +371,7 @@
     </v-container>
 
     <!-- Artist 6 -->
-    <v-container class="mt-6 mb-6">
+    <v-container class="">
       <v-row cols="12">
 
         <!-- Header Text -->
